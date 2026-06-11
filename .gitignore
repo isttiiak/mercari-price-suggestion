@@ -1,0 +1,8 @@
+data/raw/
+data/processed/
+*.tsv
+*.csv
+__pycache__/
+.venv/
+.DS_Store
+*.ipynb_checkpoints
