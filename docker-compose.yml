@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  mercari-api:
+    build: .
+    container_name: mercari-price-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./api:/app
+    restart: unless-stopped

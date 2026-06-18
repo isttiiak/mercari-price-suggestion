@@ -1,6 +1,7 @@
 data/raw/*
 data/processed/*
 models/*
+api/model/*
 *.tsv
 *.csv
 __pycache__/

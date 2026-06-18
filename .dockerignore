@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/
+
+# Data (Kaggle datasets are huge)
+data/
+
+# Models at root level (only api/model/ is needed)
+models/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.DS_Store
+
+# Source folder (not needed in container)
+src/
